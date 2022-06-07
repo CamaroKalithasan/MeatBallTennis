@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shared Files">
+      <UniqueIdentifier>{4fb2277d-44ef-4b97-9c33-107f1cf957eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client Files">
+      <UniqueIdentifier>{30bc0fd2-7551-4f0f-b5b1-7cf31f4d37cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="definitions.h">
+      <Filter>Shared Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions.h">
+      <Filter>Shared Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkMessage.h">
+      <Filter>Shared Files</Filter>
+    </ClInclude>
+    <ClInclude Include="platform.h">
+      <Filter>Shared Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Client.h">
+      <Filter>Client Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\ClientWrapper.h">
+      <Filter>Client Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NetworkMessage.cpp">
+      <Filter>Shared Files</Filter>
+    </ClCompile>
+    <ClCompile Include="platform.cpp">
+      <Filter>Shared Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\Client.cpp">
+      <Filter>Client Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\ClientWrapper.cpp">
+      <Filter>Client Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
